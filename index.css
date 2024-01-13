@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navbar*/
+
+.nav-link:hover{
+    color: #827968 !important;
+}
+
+.navbar{
+background-color: #00695C !important;
+}
+
+.nav-logo{
+    height: 40px;
+    margin-right: 26px;
+    filter: brightness(3);
+}
+.navbar-nav .nav-item:first-child .nav-link{
+    margin-left: 20px;
+}
+
+.navbar-text a.nav-link{
+    margin-right: 20px;
+}
+.navbar-toggler{
+    line-height: 1;
+    color: #ebeae7 !important;
+    background-color: #827968;
+    background: #e4d5b7;
+}
+.navbar-nav .nav-link{
+    color: #e4d5b7 !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #ebeae7 !important;
+}
+.nav-link{
+    color: #e4d5b7;
+}
+nav.bg-body-tertiary{
+    background-color:#004940 ;
+}
+
+/*Fin Navbar*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav div.container3{
+    background-color: #004940;
+    width: 100%;
+}
+nav div.container3 input{
+    width: 320px;
+}
+nav div.container3 button{
+    background-color: #e4d5b7;
+    color: #827968;
+    border: none;
+}
+nav div.container3 button:hover{
+    background-color:#827968;
+    color: #ebeae7;
+}
+
+/* --- Sección 1 -----*/
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    background-color: #004940;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ebeae7;
+    padding: 80px;
+    gap: 20px;
+}
+.right{
+    background-image: url(/assets/img/pexels-nati-17362172.jpg);
+    background-size: cover;
+    background-position: center;
+}
